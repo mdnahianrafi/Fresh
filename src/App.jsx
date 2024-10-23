@@ -1,10 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import Flex from './components/Flex'
 import Container from './components/Container'
 import Image from './components/Image'
 import Logo from '../src/assets/Logo.png'
-import Menu from './components/menu'
+import Menu from './components/Menu'
 import Button from './components/Button'
 import Heading from './components/Heading'
 import BannerModel from '../src/assets/banner model.png'
@@ -16,8 +15,9 @@ import DotPattern from '../src/assets/Dot pattern.png'
 import Sweater from '../src/assets/Sweater.png'
 import Pants from '../src/assets/Pants.png'
 import { FaStar } from "react-icons/fa";
+
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
